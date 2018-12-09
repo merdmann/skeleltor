@@ -1,8 +1,10 @@
-require 'rake/testtask'
+task default: %w[test]
 
-Rake::TestTask.new do |t|
-  puts(t)
-  t.libs << "tests"
-  t.test_files = FileList['tests/test*.rb']
-  t.verbose = true
+task :test do
+  ruby "tests/unittest.rb"
+end
+
+task :install do
+  puts "Installation in Source Tree"
+  File.chmod(0777,"./main.rb")
 end
