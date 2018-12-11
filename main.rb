@@ -2,11 +2,11 @@
 
 module Skeletor
 
-include Skeletor
+requiere "lib/Skeletor.rb"
 
 begin  
         puts( "Starting " + $0 )
-        puts( "Version " + Skeletor::VERSION )
+        puts( "Version " + version::VERSION )
         # put your code here
       load "./src/main.rb"
         

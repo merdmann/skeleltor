@@ -1,1 +1,1 @@
-puts "Main application running"
+puts "Main application running as Version" + Skeletor::VERSION;

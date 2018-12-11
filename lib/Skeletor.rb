@@ -4,9 +4,7 @@ module Skeletor
 
   require "Skeletor/version"
   
-  #require 'calabash/patch'
-  #Skeletor::Patch.apply_patches!
-  
+ 
 end
 
 
