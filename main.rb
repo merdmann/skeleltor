@@ -2,7 +2,7 @@
 
 module Skeletor
 
-requiere "lib/Skeletor.rb"
+include "lib/Skeletor.rb"
 
 begin  
         puts( "Starting " + $0 )

@@ -5,15 +5,15 @@ $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 Gem::Specification.new do |spec|
   spec.name          = "NAME"
   spec.version       = '1.0'
-  spec.authors       = ["Your Name Here"]
-  spec.email         = ["youremail@yourdomain.com"]
-  spec.summary       = %q{Short summary of your project}
-  spec.description   = %q{Longer description of your project.}
-  spec.homepage      = "http://domainforproject.com/"
+  spec.authors       = ["Michael Erdmann"]
+  spec.email         = ["michaelslab@snafu.de"]
+  spec.summary       = %q{Boilerplate for ruby}
+  spec.description   = %q{Boilerplate for ruby}
+  spec.homepage      = "http://www.michaelab.net/"
   spec.license       = "MIT"
 
-  spec.files         = ['lib/NAME.rb']
-  spec.executables   = ['bin/NAME']
-  spec.test_files    = ['tests/test_NAME.rb']
+  spec.files         = ['lib/Skeletor.rb']
+  spec.executables   = ['bin/Skeletor']
+  spec.test_files    = ['tests/test_Skeletor.rb']
   spec.require_paths = ["lib"]
 end
